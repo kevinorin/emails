@@ -41,8 +41,6 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#FFFFFF" width="600px">
-    <mj-wrapper
-    border="2px solid #F0F0F0">
 	   <mj-section>
        <mj-column>
          <mj-image
@@ -689,6 +687,5 @@
          </mj-text>
        </mj-column>
      </mj-section>
-    </mj-wrapper>
   </mj-body>
 </mjml>
