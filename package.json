@@ -1,0 +1,19 @@
+{
+  "name": "html-templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "config": {
+    "page": "index"
+  },
+  "scripts": {
+    "page": "npm config set html-templates:page ",
+    "watch": "./node_modules/.bin/mjml --watch templates/$npm_package_config_page.mjml -o $npm_package_config_page.html",
+    "build": "./node_modules/.bin/mjml -r templates/$npm_package_config_page.mjml -o $npm_package_config_page.html --config.beautify true --config.minify false --config.keepComments false"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.6.3"
+  }
+}
